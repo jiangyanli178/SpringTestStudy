@@ -3,6 +3,10 @@ package com.example.demo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+
+
+//Lombok工具,省去写get和set的方法.
+
 @RestController
 @RequestMapping("/book")
 //@Controller
