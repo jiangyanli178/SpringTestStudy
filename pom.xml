@@ -47,6 +47,13 @@
             <version>8.0.33</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>annotationProcessor</scope>
+        </dependency>
+
+
     </dependencies>
 
     <build>
