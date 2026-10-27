@@ -26,7 +26,7 @@ public class book {
 //    要求：
 //    Controller、Service、Mapper 分层
 //    返回统一结果类 Result
-//✅ 考察点：
+// 考察点：
 //    Controller 接收路径变量、MP 查询、JSON 返回、分层结构
 //    自测验证：Postman/ApiFox 发 GET 请求，看能不能拿到 json
     @RequestMapping("/getUser")
