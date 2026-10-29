@@ -1,6 +1,11 @@
 package com.example.demo;
 
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -11,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/book")
 //@Controller
 //@ResponseBody
-public class book {
+public class Book {
 //    @RequestMapping     映射
 //    @RequestParam("xx")  required = false    重命名和设置为非必传
 //    @RequestBody  传json
@@ -35,4 +40,11 @@ public class book {
 
         return user.getUserName();
     }
+
+//    @Controller  控制器存储
+//    @Service     服务存储
+//    @Repository  仓库存储
+//    @Component   组件存储
+//    @Configuration  配置存储
+
 }
