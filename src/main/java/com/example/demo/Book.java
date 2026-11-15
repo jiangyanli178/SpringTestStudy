@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -47,4 +48,8 @@ public class Book {
 //    @Component   组件存储
 //    @Configuration  配置存储
 
+//    application.properties/application.yml/application.yaml
+//        3种配置文件,其实是两种
+
+//    @PostConstruct   初始化的时候就执行的注释1
 }
