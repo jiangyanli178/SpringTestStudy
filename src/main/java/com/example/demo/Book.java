@@ -51,5 +51,5 @@ public class Book {
 //    application.properties/application.yml/application.yaml
 //        3种配置文件,其实是两种
 
-//    @PostConstruct   初始化的时候就执行的注释1
+//    @PostConstruct   初始化的时候就执行的注释
 }
