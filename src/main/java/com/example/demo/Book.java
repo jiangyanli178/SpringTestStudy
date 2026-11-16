@@ -59,5 +59,5 @@ public class Book {
     @PostConstruct
     public void print(){
     logger.info("----日志----");
-    }1
+    }
 }
