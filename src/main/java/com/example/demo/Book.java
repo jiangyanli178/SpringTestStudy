@@ -1,6 +1,8 @@
 package com.example.demo;
 
 import jakarta.annotation.PostConstruct;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -52,4 +54,10 @@ public class Book {
 //        3种配置文件,其实是两种
 
 //    @PostConstruct   初始化的时候就执行的注释
+
+    private static Logger logger = LoggerFactory.getLogger(Book.class);
+    @PostConstruct
+    public void print(){
+    logger.info("----日志----");
+    }1
 }
